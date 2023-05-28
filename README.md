@@ -1,22 +1,6 @@
-# MICCAI
+# CIKM 2023
 
-### File Descriptions
-* [Tiny Models](https://github.com/akshitt/MICCAI/blob/main/tiny_models.ipynb) - Code to train simple ML models on BloodMNIST (on 40 images)    
-* [BloodMNIST_40](https://github.com/akshitt/MICCAI/blob/main/bloodmnist_40.npz) - Trimmed BloodMNIST dataset with 40 train (5 per class) & 400 test images (50 per class) 
-
-
-### Plan 
-* Trim BloodMNIST dataset
-* Train 7 basic ML classifier models on limited data 
-* Feed these models as Labelling Functions into SPEAR for aggregation
-* Label/Test on the remaining dataset
-* Train & Test a DL Model on same data  
-* Compare accuracies
-
-### Links
-* [Edit Overleaf doc](https://www.overleaf.com/1561435369grrnqdqrpzmy)
-
-### Instructions to run Cage notebooks
+### Instructions to run JL notebooks
 
 1. Create a new virtual environment, navigate to this directory and run the following command:
 
