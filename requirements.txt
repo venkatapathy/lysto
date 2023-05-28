@@ -1,0 +1,5 @@
+numpy==1.22.4
+requests==2.25.1
+scikit_learn==1.0.2
+decile-spear==1.0.6
+keras==2.11.0
