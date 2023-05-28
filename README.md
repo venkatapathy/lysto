@@ -1,5 +1,4 @@
 # CIKM 2023
-You need to download this data
 Data: https://drive.google.com/drive/folders/1917_HzytlhPdH4IsPZf4V9PnyGt_9Ox1?usp=sharing
 
 
