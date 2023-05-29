@@ -40,7 +40,7 @@ def get_various_data(X, Y, X_feats, temp_len, validation_size = 2, test_size = 2
 
 
 
-def custom_dataset(classes=[0,1],path="/home/raja/Desktop/MICCAI/data/", fraction=1.0):
+def custom_dataset(classes=[0,1],path="/home/venkat/lysto/data/", fraction=1.0):
     import numpy as np
     from sklearn.model_selection import train_test_split
 
@@ -102,7 +102,7 @@ def custom_dataset(classes=[0,1],path="/home/raja/Desktop/MICCAI/data/", fractio
     # Custom_data has images from only selected classes; x_train & y_train have 
     return custom_data, np.array(x_train),np.array(y_train)
 
-def custom_random_dataset(classes=[0,1],path="/home/raja/Desktop/MICCAI/data/", fraction=1.0):
+def custom_random_dataset(classes=[0,1],path="/home/venkat/lysto/data/", fraction=1.0):
     import numpy as np
     from sklearn.model_selection import train_test_split
 
@@ -153,7 +153,7 @@ def custom_random_dataset(classes=[0,1],path="/home/raja/Desktop/MICCAI/data/", 
     # Custom_data has images from only selected classes; x_train & y_train have 
     return custom_data, np.array(x_train),np.array(y_train)
 
-def custom_random_seeds(classes=[0,1],path="/home/raja/Desktop/MICCAI/data/", fraction=0.05, n_seeds=7):
+def custom_random_seeds(classes=[0,1],path="/home/venkat/lysto/data/", fraction=0.05, n_seeds=7):
     import numpy as np
     from sklearn.model_selection import train_test_split
 

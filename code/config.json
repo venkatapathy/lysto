@@ -1,7 +1,7 @@
 {
     "classes":[0,1],
-    "path":"/home/raja/Desktop/MICCAI/data/",
+    "path":"/home/venkat/lysto/data/",
     "label_frac":1.0,
-    "save_path":"/home/raja/Desktop/MICCAI/data/models/"
+    "save_path":"/home/venkat/lysto/data/models/"
 
 }

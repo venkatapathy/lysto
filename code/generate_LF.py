@@ -6,7 +6,7 @@ from utils import custom_random_dataset, train_all_LF
 
 def get_variables():
     
-    f = open("/home/raja/Desktop/MICCAI/code/config.json")
+    f = open("/home/venkat/lysto/code/config.json")
     data = json.load(f)   
     classes = data["classes"]
     label_frac = data["label_frac"]
