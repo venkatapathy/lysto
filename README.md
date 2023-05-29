@@ -28,7 +28,7 @@ TEST DATASET: https://drive.google.com/drive/folders/1aKb5JbnW3kZF_hNJ7XMIX8-EW7
 3. Configure "path" and "save_path" in code/config.json according to your system
 
 4. Select the virtual environment as the kernel while running the notebook
-5. 
+5. Changes Made
 spear/jl/core.py line line: 100
 		
         elif self.feature_based_model =='resnet':
