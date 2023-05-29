@@ -31,11 +31,14 @@ TEST DATASET: https://drive.google.com/drive/folders/1aKb5JbnW3kZF_hNJ7XMIX8-EW7
 5. Code Appended to----
 
 spear/jl/core.py line: 100
-		
+
+```		
 elif self.feature_based_model =='resnet':
     self.feature_model = ResNet(self.n_features, self.n_hidden, self.n_classes).to(device = self.device)
-                
+```    
+
 spear/jl/models/models.py line: 47
+
 ```
 import torch.nn as nn
 import torchvision.models as models
