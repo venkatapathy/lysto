@@ -35,7 +35,7 @@ spear/jl/core.py line line: 100
 		        self.feature_model = ResNet(self.n_features, self.n_hidden, self.n_classes).to(device = self.device)
                 
 spear/jl/models/models.py line: 47
-
+```
 import torch.nn as nn
 import torchvision.models as models
 import torch
@@ -54,4 +54,5 @@ class ResNet(nn.Module):
         out = self.resnet(x)
         out = nn.functional.relu(out)
         return self.out(out)
-                
+```
+	
