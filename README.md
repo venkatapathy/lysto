@@ -11,6 +11,9 @@ TEST DATASET: https://drive.google.com/drive/folders/1aKb5JbnW3kZF_hNJ7XMIX8-EW7
     pip install -r requirements.txt
     ```
 
+    ```
+    pip install -i https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple/ submodlib
+    ```
 2. Make the following changes in Spear library:
     * In file "spear/cage/core.py" change line 153 to:
         ```
