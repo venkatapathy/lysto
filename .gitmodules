@@ -1,0 +1,3 @@
+[submodule "spear4Med"]
+	path = spear4Med
+	url = https://github.com/venkatapathy/spear4Med.git
